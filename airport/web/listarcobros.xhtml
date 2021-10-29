@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Cobros</title>
+        <f:facet name="first">
+            <meta content='text/html; charset=UTF-8' http-equiv="Content-Type"/>
+            <link rel="shortcut icon" type="image/x-icon" href="imagenes/ICONO1.ico" />
+            <title>Cobro</title>
+        </f:facet>
+        <style type="text/css">
+            #contenido{
+                align-items: center;
+            }
+            #contenido txtUsuario
+            {
+
+            }
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: ghostwhite;
+            }
+
+        </style>          
+    </h:head>
+    <h:body>
+        <p:outputLabel value="Usuario: #{listarAerolineaBean.usu.nombre}"/>
+        <center>
+            <img src="imagenes/LOGO2.png"/>
+        </center>
+        <ui:include src="Menu.xhtml"/>
+        <p:spacer height="5"/>
+        <h:form id="listarcobros">
+            <center>
+                <p:commandButton process="@this" value="Crear Cobro"
+                                 actionListener="#{listarCobros.nuevo()}"/>
+                <p:dataTable id="tabla"
+                             value="#{listarCobros.lista}"
+                             var="cobro"
+                             paginator="true"
+                             style="margin-top:30px;"
+                             paginatorTemplate="{CurrentPageReport} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+                             rowsPerPageTemplate="5,10,15"
+                             >
+                    <f:facet name="header">
+                        Lista de Cobros
+                    </f:facet>
+                    <p:column headerText="Id">
+                        <p:outputLabel value="#{cobro.id}"/>
+                    </p:column>
+                    <p:column headerText="Fecha">
+                        <p:outputLabel value="#{cobro.fecha}"/>
+                    </p:column>
+                    <p:column headerText="Aerolinea">
+                        <p:outputLabel value="#{cobro.aerolinea.nombre}"/>
+                    </p:column>
+                    <p:column headerText="Pasajeros">
+                        <p:outputLabel value="#{cobro.pasajeros}"/>
+                    </p:column>
+                    <p:column headerText="Precio por persona">
+                        <p:outputLabel value="#{cobro.precioporpersona}"/>
+                    </p:column>
+                    <p:column headerText="Observaciones">
+                        <p:outputLabel value="#{cobro.observaciones}"/>
+                    </p:column>
+                    <p:column headerText="Estado">
+                        <p:selectBooleanCheckbox value="#{cobro.estado}" disabled="true"/>
+                    </p:column>
+                    <p:column style="text-align: center">
+                        <p:commandButton icon="ui-icon-search"
+                                         action="#{listarCobros.seleccionar()}"
+                                         process="@this">
+                            <f:setPropertyActionListener
+                                value="#{cobro}"
+                                target="#{listarCobros.cobroseleccionado}"/>
+                        </p:commandButton>
+                    </p:column>
+
+                </p:dataTable>
+            </center>
+        </h:form>
+    </h:body>
+</html>
+

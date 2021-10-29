@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+
+    <f:view contentType="text/html">
+        <h:head>
+            <f:facet name="first">
+                <meta content='text/html; charset=UTF-8' http-equiv="Content-Type"/>
+                <link rel="shortcut icon" type="image/x-icon" href="imagenes/ICONO1.ico" />
+                <title>Login</title>
+            </f:facet>
+            <style type="text/css">
+                #contenido{
+
+                    margin: 0 auto;
+                    width: 23%;  
+                    align-items: center;
+                    margin-top: 150px;
+
+                }
+                #contenido txtUsuario
+                {
+
+                }
+                body{
+                    font-family: Arial, Helvetica, sans-serif;
+                    background-image: url(imagenes/54.jpg);
+                }
+            </style>            
+        </h:head>
+        <h:body>
+
+            <div id="contenido">
+                <img src="imagenes/LOGO.png" align="middle" ></img>
+                <h:form id="formularioLogin" >
+                    <p:growl id="globo" showDetail="true" sticky="true" showSummary="true" ></p:growl>
+                    <p:panelGrid id="pnllogin"
+                                 columns="2">
+                        <f:facet name="header">
+                            Login
+                        </f:facet>
+
+                        <p:column>
+                            <p:outputLabel value="Usuario" />
+                        </p:column>                        
+                        <p:column>
+                            <p:inputText value="#{usuarioBean.user}" id="txtUsuario"/>
+                        </p:column>
+                        <p:column>
+                            <p:outputLabel value="Clave" />
+                        </p:column>
+                        <p:column>
+                           <!-- <p:inputText value="#{usuarioBean.clave}" id="txtClave"/>-->
+                            <p:password id="txtClave" value="#{usuarioBean.clave}" required="true"/>
+                        </p:column>
+
+
+                        <f:facet name="footer">
+
+                            <p:commandButton value="Ingresar" 
+                                             id="cmdBoton"
+                                             actionListener="#{usuarioBean.ingresar()}" 
+                                             process="@form" update="msg,globo">   </p:commandButton>
+
+
+
+                        </f:facet>
+                    </p:panelGrid>
+                    <p:messages id="msg" showDetail="true" showSummary="true"> </p:messages>
+                </h:form>
+            </div>
+
+        </h:body>
+    </f:view>
+</html>
+

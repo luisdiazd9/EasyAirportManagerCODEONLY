@@ -1,0 +1,279 @@
+15-May-2018 18:45:53.726 INFORMACIÓN [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version:        Apache Tomcat (TomEE)/8.5.6 (7.0.2)
+15-May-2018 18:45:53.727 INFORMACIÓN [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          Oct 6 2016 20:15:31 UTC
+15-May-2018 18:45:53.727 INFORMACIÓN [main] sun.reflect.NativeMethodAccessorImpl.invoke Server number:         8.5.6.0
+15-May-2018 18:45:53.727 INFORMACIÓN [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Windows 10
+15-May-2018 18:45:53.727 INFORMACIÓN [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            10.0
+15-May-2018 18:45:53.727 INFORMACIÓN [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          amd64
+15-May-2018 18:45:53.727 INFORMACIÓN [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             C:\Program Files\Java\jdk1.8.0_152\jre
+15-May-2018 18:45:53.727 INFORMACIÓN [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.8.0_152-b16
+15-May-2018 18:45:53.727 INFORMACIÓN [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            Oracle Corporation
+15-May-2018 18:45:53.727 INFORMACIÓN [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         F:\Easy Airport Manager\apache-tomee-plus-7.0.2
+15-May-2018 18:45:53.727 INFORMACIÓN [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         F:\Easy Airport Manager\apache-tomee-plus-7.0.2
+15-May-2018 18:45:53.727 INFORMACIÓN [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -javaagent:F:\Easy Airport Manager\apache-tomee-plus-7.0.2\lib\openejb-javaagent.jar
+15-May-2018 18:45:53.727 INFORMACIÓN [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+15-May-2018 18:45:53.727 INFORMACIÓN [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-May-2018 18:45:53.727 INFORMACIÓN [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=F:\Easy Airport Manager\apache-tomee-plus-7.0.2\conf\logging.properties
+15-May-2018 18:45:53.728 INFORMACIÓN [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-May-2018 18:45:53.728 INFORMACIÓN [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -agentlib:jdwp=transport=dt_shmem,address=tomcat_shared_memory_id,server=y,suspend=n
+15-May-2018 18:45:53.728 INFORMACIÓN [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=F:\Easy Airport Manager\apache-tomee-plus-7.0.2
+15-May-2018 18:45:53.728 INFORMACIÓN [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=F:\Easy Airport Manager\apache-tomee-plus-7.0.2
+15-May-2018 18:45:53.728 INFORMACIÓN [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=F:\Easy Airport Manager\apache-tomee-plus-7.0.2\temp
+15-May-2018 18:45:53.728 INFORMACIÓN [main] sun.reflect.DelegatingMethodAccessorImpl.invoke La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: C:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Python36\Scripts\;C:\Program Files\Python36\;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Windows\System32;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin;;.
+15-May-2018 18:45:53.900 INFORMACIÓN [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8088"]
+15-May-2018 18:45:54.009 INFORMACIÓN [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+15-May-2018 18:45:54.012 INFORMACIÓN [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["ajp-nio-8009"]
+15-May-2018 18:45:54.014 INFORMACIÓN [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+15-May-2018 18:45:54.295 INFORMACIÓN [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+15-May-2018 18:45:54.397 INFORMACIÓN [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+15-May-2018 18:45:54.397 INFORMACIÓN [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+15-May-2018 18:45:54.397 INFORMACIÓN [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Tue May 15 18:45:54 COT 2018
+15-May-2018 18:45:54.397 INFORMACIÓN [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2016 (C) Apache OpenEJB Project, All Rights Reserved.
+15-May-2018 18:45:54.397 INFORMACIÓN [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 7.0.2
+15-May-2018 18:45:54.397 INFORMACIÓN [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20161106
+15-May-2018 18:45:54.397 INFORMACIÓN [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 07:23
+15-May-2018 18:45:54.397 INFORMACIÓN [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+15-May-2018 18:45:54.398 INFORMACIÓN [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = F:\Easy Airport Manager\apache-tomee-plus-7.0.2
+15-May-2018 18:45:54.398 INFORMACIÓN [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = F:\Easy Airport Manager\apache-tomee-plus-7.0.2
+15-May-2018 18:45:54.400 INFORMACIÓN [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@1a72a540
+15-May-2018 18:45:54.400 INFORMACIÓN [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+15-May-2018 18:45:54.433 INFORMACIÓN [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is 'F:\Easy Airport Manager\apache-tomee-plus-7.0.2\conf\tomee.xml'
+15-May-2018 18:45:54.473 INFORMACIÓN [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+15-May-2018 18:45:54.475 INFORMACIÓN [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+15-May-2018 18:45:54.477 INFORMACIÓN [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+15-May-2018 18:45:54.490 INFORMACIÓN [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+15-May-2018 18:45:54.549 INFORMACIÓN [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+15-May-2018 18:45:54.666 INFORMACIÓN [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf)
+15-May-2018 18:45:54.839 INFORMACIÓN [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+15-May-2018 18:45:54.928 INFORMACIÓN [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+15-May-2018 18:45:54.928 INFORMACIÓN [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+15-May-2018 18:45:54.928 INFORMACIÓN [main] org.apache.openejb.server.SimpleServiceManager.start -------
+15-May-2018 18:45:54.928 INFORMACIÓN [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+15-May-2018 18:45:54.928 INFORMACIÓN [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initialization processed in 1619 ms
+15-May-2018 18:45:54.962 INFORMACIÓN [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+15-May-2018 18:45:54.963 INFORMACIÓN [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+15-May-2018 18:45:54.967 INFORMACIÓN [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Arrancando servicio Catalina
+15-May-2018 18:45:54.967 INFORMACIÓN [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet Engine: Apache Tomcat (TomEE)/8.5.6 (7.0.2)
+15-May-2018 18:45:54.987 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Desplieque del descriptor de configuración F:\Easy Airport Manager\apache-tomee-plus-7.0.2\conf\Catalina\localhost\faces#airport.xml
+15-May-2018 18:45:55.001 ADVERTENCIA [localhost-startStop-1] org.apache.catalina.core.StandardContext.setPath Una ruta de contexto debe de ser o una cadena vacía o comenzar con "/". La ruta [faces/airport] no cumple con estos criterios y ha sido cambiada por [/faces/airport]
+15-May-2018 18:45:55.010 INFORMACIÓN [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /faces/airport
+15-May-2018 18:45:55.029 GRAVE [localhost-startStop-1] sun.reflect.NativeMethodAccessorImpl.invoke ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/faces/airport]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:724)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:700)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:596)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1805)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@662387cd]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4842)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4974)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\admin\Desktop\proyecto 1.0\airport\build\web] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:732)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:690)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+15-May-2018 18:45:55.030 GRAVE [localhost-startStop-1] sun.reflect.NativeMethodAccessorImpl.invoke Error durante el despliegue del descriptor de configuración F:\Easy Airport Manager\apache-tomee-plus-7.0.2\conf\Catalina\localhost\faces#airport.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/faces/airport]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:728)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:700)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:596)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1805)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+15-May-2018 18:45:55.031 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of configuration descriptor F:\Easy Airport Manager\apache-tomee-plus-7.0.2\conf\Catalina\localhost\faces#airport.xml has finished in 44 ms
+15-May-2018 18:45:55.031 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Desplieque del descriptor de configuración F:\Easy Airport Manager\apache-tomee-plus-7.0.2\conf\Catalina\localhost\airport.xml
+15-May-2018 18:45:55.035 INFORMACIÓN [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /airport
+15-May-2018 18:45:55.684 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: F:\Easy Airport Manager\airport\build\web
+15-May-2018 18:45:56.325 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+15-May-2018 18:45:56.325 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean airport.Comp1244752743: Container(type=MANAGED, id=Default Managed Container)
+15-May-2018 18:45:56.325 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+15-May-2018 18:45:56.325 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.core.managed.SimplePassivater.init Using directory F:\Easy Airport Manager\apache-tomee-plus-7.0.2\temp for stateful session passivation
+15-May-2018 18:45:56.372 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "F:\Easy Airport Manager\airport\build\web" loaded.
+15-May-2018 18:45:56.528 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: F:\Easy Airport Manager\airport\build\web
+15-May-2018 18:45:56.669 INFORMACIÓN [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file F:\Easy Airport Manager\airport\build\web\META-INF\context.xml
+15-May-2018 18:45:56.669 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=F:\Easy Airport Manager\airport\build\web)
+15-May-2018 18:45:56.950 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+15-May-2018 18:45:57.044 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getStandardFacesConfig Reading standard config META-INF/standard-faces-config.xml
+15-May-2018 18:45:57.247 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getClassloaderFacesConfig Reading config : jar:file:/F:/Easy%20Airport%20Manager/airport/build/web/WEB-INF/lib/primefaces-5.0.jar!/META-INF/faces-config.xml
+15-May-2018 18:45:57.491 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.LogMetaInfUtils.logArtifact Artifact 'myfaces-api' was found in version '2.2.11' from path 'file:/F:/Easy%20Airport%20Manager/apache-tomee-plus-7.0.2/lib/myfaces-api-2.2.11.jar'
+15-May-2018 18:45:57.491 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.LogMetaInfUtils.logArtifact Artifact 'myfaces-impl' was found in version '2.2.11' from path 'file:/F:/Easy%20Airport%20Manager/apache-tomee-plus-7.0.2/lib/myfaces-impl-2.2.11.jar'
+15-May-2018 18:45:57.509 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.util.ExternalSpecifications.isCDIAvailable MyFaces CDI support enabled
+15-May-2018 18:45:57.513 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory.getInjectionProvider Using InjectionProvider org.apache.myfaces.spi.impl.Tomcat7AnnotationInjectionProvider
+15-May-2018 18:45:57.576 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.util.ExternalSpecifications.isBeanValidationAvailable MyFaces Bean Validation support enabled
+15-May-2018 18:45:57.666 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.application.ApplicationImpl.getProjectStage Couldn't discover the current project stage, using Production
+15-May-2018 18:45:57.666 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.FacesConfigurator.handleSerialFactory Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+15-May-2018 18:45:57.675 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory.getLifecycleProvider Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+15-May-2018 18:45:57.799 INFORMACIÓN [localhost-startStop-1] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 5.0
+15-May-2018 18:45:57.799 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.webapp.AbstractFacesInitializer.initFaces ServletContext initialized.
+15-May-2018 18:45:57.802 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.util.ExternalSpecifications.isUnifiedELAvailable MyFaces Unified EL support enabled
+15-May-2018 18:45:57.806 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.view.facelets.ViewPoolProcessor.initialize org.apache.myfaces.CACHE_EL_EXPRESSIONS web config parameter is set to "noCache". To enable view pooling this param must be set to "alwaysRecompile". View Pooling disabled.
+15-May-2018 18:45:57.817 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.webapp.StartupServletContextListener.contextInitialized MyFaces Core has started, it took [867] ms.
+15-May-2018 18:45:58.465 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of configuration descriptor F:\Easy Airport Manager\apache-tomee-plus-7.0.2\conf\Catalina\localhost\airport.xml has finished in 3.434 ms
+15-May-2018 18:45:58.465 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Desplieque del descriptor de configuración F:\Easy Airport Manager\apache-tomee-plus-7.0.2\conf\Catalina\localhost\PreParcial.xml
+15-May-2018 18:45:58.470 INFORMACIÓN [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /PreParcial
+15-May-2018 18:45:58.870 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: F:\PROGRAMACIONII\Pre parciales\Pre Parcial 1\PreParcial\build\web
+15-May-2018 18:45:59.288 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "F:\PROGRAMACIONII\Pre parciales\Pre Parcial 1\PreParcial\build\web" loaded.
+15-May-2018 18:45:59.288 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: F:\PROGRAMACIONII\Pre parciales\Pre Parcial 1\PreParcial\build\web
+15-May-2018 18:45:59.296 INFORMACIÓN [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file F:\PROGRAMACIONII\Pre parciales\Pre Parcial 1\PreParcial\build\web\META-INF\context.xml
+15-May-2018 18:45:59.297 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=F:\PROGRAMACIONII\Pre parciales\Pre Parcial 1\PreParcial\build\web)
+15-May-2018 18:45:59.433 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+15-May-2018 18:45:59.450 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getStandardFacesConfig Reading standard config META-INF/standard-faces-config.xml
+15-May-2018 18:45:59.515 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getClassloaderFacesConfig Reading config : jar:file:/F:/PROGRAMACIONII/Pre%20parciales/Pre%20Parcial%201/PreParcial/build/web/WEB-INF/lib/primefaces-5.0.jar!/META-INF/faces-config.xml
+15-May-2018 18:45:59.635 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.LogMetaInfUtils.logArtifact Artifact 'myfaces-api' was found in version '2.2.11' from path 'file:/F:/Easy%20Airport%20Manager/apache-tomee-plus-7.0.2/lib/myfaces-api-2.2.11.jar'
+15-May-2018 18:45:59.635 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.LogMetaInfUtils.logArtifact Artifact 'myfaces-impl' was found in version '2.2.11' from path 'file:/F:/Easy%20Airport%20Manager/apache-tomee-plus-7.0.2/lib/myfaces-impl-2.2.11.jar'
+15-May-2018 18:45:59.638 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory.getInjectionProvider Using InjectionProvider org.apache.myfaces.spi.impl.Tomcat7AnnotationInjectionProvider
+15-May-2018 18:45:59.700 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.FacesConfigurator.handleSerialFactory Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+15-May-2018 18:45:59.700 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory.getLifecycleProvider Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+15-May-2018 18:45:59.700 INFORMACIÓN [localhost-startStop-1] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 5.0
+15-May-2018 18:45:59.700 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.webapp.AbstractFacesInitializer.initFaces ServletContext initialized.
+15-May-2018 18:45:59.700 ADVERTENCIA [localhost-startStop-1] org.apache.myfaces.webapp.AbstractFacesInitializer.initFaces 
+
+*******************************************************************
+*** WARNING: Apache MyFaces-2 is running in DEVELOPMENT mode.   ***
+***                                         ^^^^^^^^^^^         ***
+*** Do NOT deploy to your live server(s) without changing this. ***
+*** See Application#getProjectStage() for more information.     ***
+*******************************************************************
+
+15-May-2018 18:45:59.700 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.webapp.StartupServletContextListener.contextInitialized MyFaces Core has started, it took [264] ms.
+15-May-2018 18:45:59.715 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of configuration descriptor F:\Easy Airport Manager\apache-tomee-plus-7.0.2\conf\Catalina\localhost\PreParcial.xml has finished in 1.250 ms
+15-May-2018 18:45:59.715 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Desplieque del descriptor de configuración F:\Easy Airport Manager\apache-tomee-plus-7.0.2\conf\Catalina\localhost\PreParcial1.xml
+15-May-2018 18:46:00.434 INFORMACIÓN [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /PreParcial1
+15-May-2018 18:46:02.222 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: F:\PROGRAMACIONII\Pre parciales\Pre Parcial 2\PreParcial1\build\web
+15-May-2018 18:46:02.580 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "F:\PROGRAMACIONII\Pre parciales\Pre Parcial 2\PreParcial1\build\web" loaded.
+15-May-2018 18:46:02.580 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: F:\PROGRAMACIONII\Pre parciales\Pre Parcial 2\PreParcial1\build\web
+15-May-2018 18:46:02.590 INFORMACIÓN [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file F:\PROGRAMACIONII\Pre parciales\Pre Parcial 2\PreParcial1\build\web\META-INF\context.xml
+15-May-2018 18:46:02.591 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=F:\PROGRAMACIONII\Pre parciales\Pre Parcial 2\PreParcial1\build\web)
+15-May-2018 18:46:02.707 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+15-May-2018 18:46:02.721 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getStandardFacesConfig Reading standard config META-INF/standard-faces-config.xml
+15-May-2018 18:46:02.767 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getClassloaderFacesConfig Reading config : jar:file:/F:/PROGRAMACIONII/Pre%20parciales/Pre%20Parcial%202/PreParcial1/build/web/WEB-INF/lib/primefaces-5.0.jar!/META-INF/faces-config.xml
+15-May-2018 18:46:02.880 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.LogMetaInfUtils.logArtifact Artifact 'myfaces-api' was found in version '2.2.11' from path 'file:/F:/Easy%20Airport%20Manager/apache-tomee-plus-7.0.2/lib/myfaces-api-2.2.11.jar'
+15-May-2018 18:46:02.880 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.LogMetaInfUtils.logArtifact Artifact 'myfaces-impl' was found in version '2.2.11' from path 'file:/F:/Easy%20Airport%20Manager/apache-tomee-plus-7.0.2/lib/myfaces-impl-2.2.11.jar'
+15-May-2018 18:46:02.884 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory.getInjectionProvider Using InjectionProvider org.apache.myfaces.spi.impl.Tomcat7AnnotationInjectionProvider
+15-May-2018 18:46:02.951 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.FacesConfigurator.handleSerialFactory Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+15-May-2018 18:46:02.955 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory.getLifecycleProvider Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+15-May-2018 18:46:02.958 INFORMACIÓN [localhost-startStop-1] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 5.0
+15-May-2018 18:46:02.958 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.webapp.AbstractFacesInitializer.initFaces ServletContext initialized.
+15-May-2018 18:46:02.958 ADVERTENCIA [localhost-startStop-1] org.apache.myfaces.webapp.AbstractFacesInitializer.initFaces 
+
+*******************************************************************
+*** WARNING: Apache MyFaces-2 is running in DEVELOPMENT mode.   ***
+***                                         ^^^^^^^^^^^         ***
+*** Do NOT deploy to your live server(s) without changing this. ***
+*** See Application#getProjectStage() for more information.     ***
+*******************************************************************
+
+15-May-2018 18:46:02.958 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.webapp.StartupServletContextListener.contextInitialized MyFaces Core has started, it took [248] ms.
+15-May-2018 18:46:02.971 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of configuration descriptor F:\Easy Airport Manager\apache-tomee-plus-7.0.2\conf\Catalina\localhost\PreParcial1.xml has finished in 3.256 ms
+15-May-2018 18:46:02.971 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Desplieque del descriptor de configuración F:\Easy Airport Manager\apache-tomee-plus-7.0.2\conf\Catalina\localhost\CentralNuclear.xml
+15-May-2018 18:46:02.972 INFORMACIÓN [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /CentralNuclear
+15-May-2018 18:46:03.996 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\admin\Desktop\Parcial Martes\CentralNuclear\build\web
+15-May-2018 18:46:04.340 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\admin\Desktop\Parcial Martes\CentralNuclear\build\web" loaded.
+15-May-2018 18:46:04.340 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\admin\Desktop\Parcial Martes\CentralNuclear\build\web
+15-May-2018 18:46:04.356 INFORMACIÓN [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\admin\Desktop\Parcial Martes\CentralNuclear\build\web\META-INF\context.xml
+15-May-2018 18:46:04.356 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\admin\Desktop\Parcial Martes\CentralNuclear\build\web)
+15-May-2018 18:46:04.481 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+15-May-2018 18:46:04.496 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getStandardFacesConfig Reading standard config META-INF/standard-faces-config.xml
+15-May-2018 18:46:04.559 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getClassloaderFacesConfig Reading config : jar:file:/C:/Users/admin/Desktop/Parcial%20Martes/CentralNuclear/build/web/WEB-INF/lib/primefaces-5.0.jar!/META-INF/faces-config.xml
+15-May-2018 18:46:04.698 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.LogMetaInfUtils.logArtifact Artifact 'myfaces-api' was found in version '2.2.11' from path 'file:/F:/Easy%20Airport%20Manager/apache-tomee-plus-7.0.2/lib/myfaces-api-2.2.11.jar'
+15-May-2018 18:46:04.698 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.LogMetaInfUtils.logArtifact Artifact 'myfaces-impl' was found in version '2.2.11' from path 'file:/F:/Easy%20Airport%20Manager/apache-tomee-plus-7.0.2/lib/myfaces-impl-2.2.11.jar'
+15-May-2018 18:46:04.698 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory.getInjectionProvider Using InjectionProvider org.apache.myfaces.spi.impl.Tomcat7AnnotationInjectionProvider
+15-May-2018 18:46:04.807 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.FacesConfigurator.handleSerialFactory Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+15-May-2018 18:46:04.807 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory.getLifecycleProvider Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+15-May-2018 18:46:04.807 INFORMACIÓN [localhost-startStop-1] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 5.0
+15-May-2018 18:46:04.807 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.webapp.AbstractFacesInitializer.initFaces ServletContext initialized.
+15-May-2018 18:46:04.807 ADVERTENCIA [localhost-startStop-1] org.apache.myfaces.webapp.AbstractFacesInitializer.initFaces 
+
+*******************************************************************
+*** WARNING: Apache MyFaces-2 is running in DEVELOPMENT mode.   ***
+***                                         ^^^^^^^^^^^         ***
+*** Do NOT deploy to your live server(s) without changing this. ***
+*** See Application#getProjectStage() for more information.     ***
+*******************************************************************
+
+15-May-2018 18:46:04.807 INFORMACIÓN [localhost-startStop-1] org.apache.myfaces.webapp.StartupServletContextListener.contextInitialized MyFaces Core has started, it took [326] ms.
+15-May-2018 18:46:04.823 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of configuration descriptor F:\Easy Airport Manager\apache-tomee-plus-7.0.2\conf\Catalina\localhost\CentralNuclear.xml has finished in 1.852 ms
+15-May-2018 18:46:04.823 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Despliegue del directorio F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\docs de la aplicación web
+15-May-2018 18:46:04.823 INFORMACIÓN [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /docs
+15-May-2018 18:46:05.588 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\docs
+15-May-2018 18:46:05.588 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\docs" loaded.
+15-May-2018 18:46:05.588 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\docs
+15-May-2018 18:46:05.604 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\docs)
+15-May-2018 18:46:05.604 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+15-May-2018 18:46:05.620 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\docs has finished in 797 ms
+15-May-2018 18:46:05.620 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Despliegue del directorio F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\host-manager de la aplicación web
+15-May-2018 18:46:05.635 INFORMACIÓN [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /host-manager
+15-May-2018 18:46:05.651 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\host-manager
+15-May-2018 18:46:05.651 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\host-manager" loaded.
+15-May-2018 18:46:05.651 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\host-manager
+15-May-2018 18:46:05.651 INFORMACIÓN [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\host-manager\META-INF\context.xml
+15-May-2018 18:46:05.666 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\host-manager)
+15-May-2018 18:46:05.682 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+15-May-2018 18:46:05.698 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\host-manager has finished in 78 ms
+15-May-2018 18:46:05.698 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Despliegue del directorio F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\manager de la aplicación web
+15-May-2018 18:46:05.698 INFORMACIÓN [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /manager
+15-May-2018 18:46:05.713 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\manager
+15-May-2018 18:46:05.713 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\manager" loaded.
+15-May-2018 18:46:05.713 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\manager
+15-May-2018 18:46:05.729 INFORMACIÓN [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\manager\META-INF\context.xml
+15-May-2018 18:46:05.729 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\manager)
+15-May-2018 18:46:05.745 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+15-May-2018 18:46:05.760 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\manager has finished in 62 ms
+15-May-2018 18:46:05.760 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Despliegue del directorio F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\ROOT de la aplicación web
+15-May-2018 18:46:05.760 INFORMACIÓN [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /
+15-May-2018 18:46:05.776 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\ROOT
+15-May-2018 18:46:05.776 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\ROOT" loaded.
+15-May-2018 18:46:05.776 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\ROOT
+15-May-2018 18:46:05.776 INFORMACIÓN [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\ROOT)
+15-May-2018 18:46:05.791 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+15-May-2018 18:46:05.807 INFORMACIÓN [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application directory F:\Easy Airport Manager\apache-tomee-plus-7.0.2\webapps\ROOT has finished in 47 ms
+15-May-2018 18:46:05.807 INFORMACIÓN [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [http-nio-8088]
+15-May-2018 18:46:05.823 INFORMACIÓN [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler [ajp-nio-8009]
+15-May-2018 18:46:05.823 INFORMACIÓN [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in 10901 ms
+15-May-2018 18:46:07.793 INFORMACIÓN [http-nio-8088-exec-9] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: C:\Users\admin\Desktop\Parcial Martes\CentralNuclear\build\web
+15-May-2018 18:46:08.465 INFORMACIÓN [http-nio-8088-exec-9] sun.reflect.DelegatingMethodAccessorImpl.invoke Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto /CentralNuclear
+15-May-2018 18:46:08.637 INFORMACIÓN [http-nio-8088-exec-10] sun.reflect.DelegatingMethodAccessorImpl.invoke Desplieque del descriptor de configuración F:\Easy Airport Manager\apache-tomee-plus-7.0.2\conf\Catalina\localhost\CentralNuclear.xml
+15-May-2018 18:46:08.652 INFORMACIÓN [http-nio-8088-exec-10] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /CentralNuclear
+15-May-2018 18:46:08.855 INFORMACIÓN [http-nio-8088-exec-10] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: C:\Users\admin\Desktop\Parcial Martes\CentralNuclear\build\web
+15-May-2018 18:46:09.168 INFORMACIÓN [http-nio-8088-exec-10] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "C:\Users\admin\Desktop\Parcial Martes\CentralNuclear\build\web" loaded.
+15-May-2018 18:46:09.168 INFORMACIÓN [http-nio-8088-exec-10] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: C:\Users\admin\Desktop\Parcial Martes\CentralNuclear\build\web
+15-May-2018 18:46:09.184 INFORMACIÓN [http-nio-8088-exec-10] org.apache.tomee.catalina.TomcatWebAppBuilder.deployWebApps using context file C:\Users\admin\Desktop\Parcial Martes\CentralNuclear\build\web\META-INF\context.xml
+15-May-2018 18:46:09.184 INFORMACIÓN [http-nio-8088-exec-10] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=C:\Users\admin\Desktop\Parcial Martes\CentralNuclear\build\web)
+15-May-2018 18:46:09.309 INFORMACIÓN [http-nio-8088-exec-10] sun.reflect.DelegatingMethodAccessorImpl.invoke Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+15-May-2018 18:46:09.340 INFORMACIÓN [http-nio-8088-exec-10] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getStandardFacesConfig Reading standard config META-INF/standard-faces-config.xml
+15-May-2018 18:46:09.402 INFORMACIÓN [http-nio-8088-exec-10] org.apache.myfaces.config.DefaultFacesConfigurationProvider.getClassloaderFacesConfig Reading config : jar:file:/C:/Users/admin/Desktop/Parcial%20Martes/CentralNuclear/build/web/WEB-INF/lib/primefaces-5.0.jar!/META-INF/faces-config.xml
+15-May-2018 18:46:09.527 INFORMACIÓN [http-nio-8088-exec-10] org.apache.myfaces.config.LogMetaInfUtils.logArtifact Artifact 'myfaces-api' was found in version '2.2.11' from path 'file:/F:/Easy%20Airport%20Manager/apache-tomee-plus-7.0.2/lib/myfaces-api-2.2.11.jar'
+15-May-2018 18:46:09.527 INFORMACIÓN [http-nio-8088-exec-10] org.apache.myfaces.config.LogMetaInfUtils.logArtifact Artifact 'myfaces-impl' was found in version '2.2.11' from path 'file:/F:/Easy%20Airport%20Manager/apache-tomee-plus-7.0.2/lib/myfaces-impl-2.2.11.jar'
+15-May-2018 18:46:09.527 INFORMACIÓN [http-nio-8088-exec-10] org.apache.myfaces.spi.impl.DefaultInjectionProviderFactory.getInjectionProvider Using InjectionProvider org.apache.myfaces.spi.impl.Tomcat7AnnotationInjectionProvider
+15-May-2018 18:46:09.637 INFORMACIÓN [http-nio-8088-exec-10] org.apache.myfaces.config.FacesConfigurator.handleSerialFactory Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+15-May-2018 18:46:09.637 INFORMACIÓN [http-nio-8088-exec-10] org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory.getLifecycleProvider Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+15-May-2018 18:46:09.637 INFORMACIÓN [http-nio-8088-exec-10] org.primefaces.webapp.PostConstructApplicationEventListener.processEvent Running on PrimeFaces 5.0
+15-May-2018 18:46:09.637 INFORMACIÓN [http-nio-8088-exec-10] org.apache.myfaces.webapp.AbstractFacesInitializer.initFaces ServletContext initialized.
+15-May-2018 18:46:09.637 ADVERTENCIA [http-nio-8088-exec-10] org.apache.myfaces.webapp.AbstractFacesInitializer.initFaces 
+
+*******************************************************************
+*** WARNING: Apache MyFaces-2 is running in DEVELOPMENT mode.   ***
+***                                         ^^^^^^^^^^^         ***
+*** Do NOT deploy to your live server(s) without changing this. ***
+*** See Application#getProjectStage() for more information.     ***
+*******************************************************************
+
+15-May-2018 18:46:09.637 INFORMACIÓN [http-nio-8088-exec-10] org.apache.myfaces.webapp.StartupServletContextListener.contextInitialized MyFaces Core has started, it took [313] ms.
+15-May-2018 18:46:09.652 INFORMACIÓN [http-nio-8088-exec-10] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of configuration descriptor F:\Easy Airport Manager\apache-tomee-plus-7.0.2\conf\Catalina\localhost\CentralNuclear.xml has finished in 1.015 ms
+15-May-2018 18:46:09.668 INFORMACIÓN [http-nio-8088-exec-1] sun.reflect.DelegatingMethodAccessorImpl.invoke The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/CentralNuclear]] after start() had already been called. The second call will be ignored.
+15-May-2018 18:46:09.894 INFORMACIÓN [http-nio-8088-exec-2] org.apache.myfaces.el.unified.ResolverBuilderBase.sortELResolvers Chain of EL resolvers for JSP sorted with: org.apache.myfaces.el.unified.OpenWebBeansELResolverComparator@56c2f8c0 and the result order is [org.apache.myfaces.el.unified.resolver.implicitobject.ImplicitObjectResolver@2be1b267, org.apache.myfaces.el.FlashELResolver@20c21120, org.apache.myfaces.el.unified.resolver.ManagedBeanResolver@237f8d85, org.apache.myfaces.el.unified.resolver.ResourceBundleResolver@623a65d2, org.apache.myfaces.el.unified.resolver.ResourceResolver@446e8178, org.apache.myfaces.el.convert.VariableResolverToELResolver@7415c3c4, org.apache.myfaces.el.convert.PropertyResolverToELResolver@2b596b66]
+15-May-2018 18:46:10.033 GRAVE [http-nio-8088-exec-2] org.apache.myfaces.context.servlet.ServletExternalContextImpl.setResponseContentType Cannot set content type. Response already committed

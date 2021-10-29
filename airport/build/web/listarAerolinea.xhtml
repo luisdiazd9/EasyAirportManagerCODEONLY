@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Listar Aerolinea</title>
+        <f:facet name="first">
+            <meta content='text/html; charset=UTF-8' http-equiv="Content-Type"/>
+            <link rel="shortcut icon" type="image/x-icon" href="imagenes/ICONO1.ico" />
+            <title>Aerolinea</title>
+        </f:facet>
+        <style type="text/css">
+            #contenido{
+                align-items: center;
+            }
+            #contenido txtUsuario
+            {
+
+            }
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: ghostwhite;
+            }
+
+        </style>            
+    </h:head>
+
+
+    <h:body id="contenido">
+        <p:outputLabel value="Usuario: #{listarAerolineaBean.usu.nombre}"/>
+        <center>
+            <img src="imagenes/LOGO2.png"/>
+        </center>
+        <ui:include src="Menu.xhtml"/>
+        <p:spacer height="5"/>
+        <h:form id="frmListarAerolinea">
+            <center>
+                <p:commandButton id="nuevo"  style="align-content: center;" value="Crear Aerolinea"
+                                 actionListener="#{listarAerolineaBean.nuevo()}"/>
+
+                <p:dataTable id="tabla" value="#{listarAerolineaBean.lista}"
+                             style="margin-top:30px;"
+                             var="Aerolinea"
+                             paginator="true"
+                             paginatorTemplate="{CurrentPageReport} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+                             rowsPerPageTemplate="5,10,15"
+                             >
+
+                    <f:facet name="header">
+                        Lista De Aerolineas
+                    </f:facet>
+                    <p:column headerText="Id">
+                        <p:outputLabel value="#{Aerolinea.id}"/>
+                    </p:column>
+                    <p:column headerText="Nombre">
+                        <p:outputLabel value="#{Aerolinea.nombre}"/>
+                    </p:column>
+                    <p:column headerText="Estado">
+                        <p:selectBooleanCheckbox value="#{Aerolinea.estado}" disabled="true"/>
+                    </p:column>
+                    <p:column style="text-align: center">
+                        <p:commandButton icon="ui-icon-search"
+                                         action="#{listarAerolineaBean.seleccionar()}"
+                                         process="@this">
+                            <f:setPropertyActionListener
+                                value="#{Aerolinea}"
+                                target="#{listarAerolineaBean.aerolineaseleccionada}"/>
+                        </p:commandButton>
+                    </p:column>
+                </p:dataTable>
+            </center>
+        </h:form>
+    </h:body>
+</html>
+

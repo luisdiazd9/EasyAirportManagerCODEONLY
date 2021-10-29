@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html 
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <f:event type="preRenderView" listener="#{principalBean.verificarSesion}"></f:event>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <f:facet name="first">
+            <meta content='text/html; charset=UTF-8' http-equiv="Content-Type"/>
+            <link rel="shortcut icon" type="image/x-icon" href="imagenes/ICONO1.ico" />
+            <title>Principal</title>
+        </f:facet>
+
+        <style type="text/css">
+            #contenido{
+                align-items: center;
+            }
+            #contenido txtUsuario
+            {
+
+            }
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-image: url(imagenes/fondoprincipal.jpg);
+            }
+
+        </style>   
+    </h:head>
+
+    <h:body>
+        <p:outputLabel value="Usuario: #{listarAerolineaBean.usu.nombre}" style="color: black;"/>
+        <p:spacer height="20"/>
+        <ui:include src="Menu.xhtml"/>
+        <p:growl autoUpdate="true" id="mensaje" showDetail="true" showSummary="true"></p:growl>
+
+    </h:body>
+</html>
